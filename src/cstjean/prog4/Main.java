@@ -22,11 +22,12 @@ public class Main {
         tour.entrer(magicien4);
 
         System.out.println("#### TOUR ENSORCELÉE (CASQUE) ###");
-        tour = new TourEnsorcelee();
+        TourInterface tour = new TourEnsorcelee();
+
         tour.entrer(magicien);
         tour.entrer(magicien2);
         tour.entrer(magicien3);
-        tour.entrer(magicien4);
+        tour.(magicien4);
 
         System.out.println("#### TOUR ENSORCELÉE (CASQUE + GANTS + COTTE) ###");
         tour = new TourEnsorcelee();

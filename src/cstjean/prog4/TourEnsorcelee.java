@@ -3,8 +3,9 @@ package cstjean.prog4;
 import java.util.LinkedList;
 import java.util.List;
 
-public class TourEnsorcelee extends Tour implements Equipement{
+public class TourEnsorcelee extends Tour {
     private List<Personnage> magiciens = new LinkedList<>();
+
     @Override
     public void entrer(Personnage personnage) {
         if(magiciens.size() < 2){
@@ -19,8 +20,4 @@ public class TourEnsorcelee extends Tour implements Equipement{
 
     }
 
-    @Override
-    public void ajouterEquipement() {
-
-    }
 }
